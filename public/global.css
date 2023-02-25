@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: 0;
+    border: 0;
+}
+
+html,
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    color: #333;
+    height: 100.001vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+input,
+select {
+    outline: none;
+    box-shadow: none;
+    transition: all .3s;
+}
+
+input:focus {
+    border-color: rgba(31, 78, 233, 0.8);
+    box-shadow: 0 0 0 2px rgba(31, 78, 233, 0.2);
+}
+
+select:focus {
+    border-color: rgba(31, 78, 233, 0.8);
+    box-shadow: 0 0 0 2px rgba(31, 78, 233, 0.2);
+}
